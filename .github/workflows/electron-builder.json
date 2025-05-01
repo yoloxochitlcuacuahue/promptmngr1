@@ -1,0 +1,14 @@
+{
+  "appId": "com.tuprompt.manager",
+  "productName": "Prompt Manager",
+  "copyright": "© 2025 Dner Shaitan",
+  "files": ["dist/**/*", "main.js"],
+  "directories": { "buildResources": "assets" },
+  "win": { "target": ["nsis", "portable"] },
+  "nsis": {
+    "oneClick": false,
+    "perMachine": false,
+    "allowElevation": true,
+    "allowToChangeInstallationDirectory": true
+  }
+}
